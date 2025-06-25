@@ -1,0 +1,21 @@
+POST http://localhost:3333/users 
+content-type: application/json
+
+{
+    "name": "mini",
+    "email": "mini@gmail.com"
+}
+
+###
+PUT http://localhost:3333/users/a1a68cba-b66c-42d2-a7ac-c0d49d27e202
+content-type: application/json
+
+{
+    "name": "mininininini",
+    "email": "mininininini@gmail.com"
+}
+
+###
+GET http://localhost:3333/users?search=let
+###
+DELETE http://localhost:3333/users/a1a68cba-b66c-42d2-a7ac-c0d49d27e202
